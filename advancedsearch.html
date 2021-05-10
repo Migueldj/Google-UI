@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="as.css">
+    </head>
+    <body>
+    
+    <div id="top" style="height: 60px;">
+        <div id="topdiv">
+            <a href="https://www.google.com.mx" role="button"><img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" aria-hidden="true"></a>
+        </div>
+        <div id="links">
+            <a href="index.html">Google Search</a>
+        </div>
+    </div>
+        
+
+        <div id="appbar">
+            <label style="margin-left:10px">Advanced Search</label>
+        </div>
+
+        <div id="divider"></div>
+        <div id="outsider" style="color: #333;">
+            <div id="description">
+                <div style="width: 167px;">
+                    <span>Find pages with...</span>
+                </div>
+                <div style="width: 590px; height:5px;"></div>
+                <div style="font-size: 13px;font-weight: 700;color: #777;">
+                    To do this in the search box.
+                </div>
+            </div>
+            
+            <div id="container">
+                <form action="https://google.com/search">
+                    
+                    <div class="rows">
+                        <div id="label">
+                            <label>all these words:</label>
+                        </div>
+                        
+                        <div id="input">
+                            <input class="rect" autofocus="autofocus" name="as_q" type="text" autocomplete="off">
+                        </div>
+                        <div id="help">
+                            Type the important words:  
+                            <span>tri-colour rat terrier</span>
+                        </div>
+                    </div>
+
+                    <div class="rows">
+                        <div id="label">
+                            <label>this exact word or phrase:</label>
+                        </div>
+                        <div id="input">
+                            <input class="rect" name="as_epq" type="text" autocomplete="off">
+                        </div>
+                        <div id="help">
+                            Put exact words in quotes:  
+                            <span>"rat terrier"</span>
+                        </div>
+                    </div>
+
+                    <div class="rows">
+                        <div id="label">
+                            <label>any of these words:</label>
+                        </div>
+                        <div id="input">
+                            <input class="rect" name="as_oq" type="text" autocomplete="off">
+                        </div>
+                        <div id="help">
+                            Type 
+                            <span>OR</span> 
+                            between all the words you want:  
+                            <span>miniature OR standard</span>
+                        </div>
+                    </div>
+
+                    <div class="rows">
+                        <div id="label">
+                            <label>none of these words:</label>
+                        </div>
+                        <div id="input">
+                            <input class="rect" name="as_eq" type="text" autocomplete="off">
+                        </div>
+                        <div id="help">
+                            Put a minus sign just before words that you don't want:  
+                            <span>-rodent, -"Jack Russell"</span>
+                        </div>
+                    </div>
+
+                    <div class="rows">
+                        <div id="label"></div>
+                        <div style="width: 590px; height:5px; text-align: end;">
+                            <input name="tbs" type="hidden">
+                            <input id="btn" value="Advanced Search" type="submit">
+                        </div>
+                        
+                    </div>
+                </form>        
+            </div>
+        </div>
+    </body>
+</html>

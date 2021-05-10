@@ -1,0 +1,158 @@
+
+div {
+    text-align: center;
+}
+
+.container{
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    flex: 100%;
+    width: auto;
+    max-width: 584px;
+
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 44px;
+}
+.outsider{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 23px;
+    text-align: center;
+    width: 272px;
+    height: 92px;
+  }
+
+.links{
+
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(0,0,0,0.87);
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+a:visited{
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select:none;
+    margin-top: 29px;
+    border-color: transparent;
+}
+
+.btn:hover{
+    border-color: lightgrey;
+}
+
+.btn:focus{
+    border: 1px solid #4d90fe;
+    outline: none;
+}
+
+.SearchBar{
+    margin: 0 auto;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -32px;
+    height: 100%;
+    font-size: 16px;
+    width: 90%;
+    padding-left: 5%;
+}
+
+form {
+    display: block;
+    height: fit-content;
+}
+
+.logoimages{
+    margin-top:20px;
+    margin-bottom: 23px;
+    text-align: center;
+    width: 282px;
+    height: 100px;
+}
+
+#gg{
+    padding-top: 82px;
+}
+
+#imagesBar{
+    background-color: transparent;
+    border: none;
+    padding-left: 5%;
+    height: 100%;
+    font-size: 16px;
+    width: 90%;
+    outline: none;
+    display: flex;
+    margin-top: -50px;
+}
+
+.containerImages{
+    background: #fff;
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    flex: 100%;
+    width: auto;
+    max-width: 534px;
+
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    height: 44px;
+}
