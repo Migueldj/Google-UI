@@ -3,6 +3,7 @@
     <head>
         <title>Advanced Search</title>
         <link rel="stylesheet" href="as.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
     
@@ -26,8 +27,9 @@
                 <div style="width: 167px;">
                     <span>Find pages with...</span>
                 </div>
-                <div style="width: 590px; height:5px;"></div>
-                <div style="font-size: 13px;font-weight: 700;color: #777;">
+                <div style="min-width: 167px; width: 44%; height:5px; box-sizing: border-box;"></div>
+
+                <div id="lastDiv">
                     To do this in the search box.
                 </div>
             </div>
@@ -92,7 +94,7 @@
 
                     <div class="rows">
                         <div id="label"></div>
-                        <div style="width: 590px; height:5px; text-align: end;">
+                        <div>
                             <input name="tbs" type="hidden">
                             <input id="btn" value="Advanced Search" type="submit">
                         </div>
