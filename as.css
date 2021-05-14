@@ -139,6 +139,7 @@ body{
     height: 30px;
     min-width: 120px;
     border-radius: 2px;
+    margin-left: -120px;
 }
 
 #btn:hover{
